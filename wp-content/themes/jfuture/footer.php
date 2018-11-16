@@ -10,93 +10,245 @@
  */
 ?>
 
-    <footer class="container-fluid">
+    <footer>
         <div class="wrapper over-n">
-            <h6 class="text-center"><?php echo __('[:en]The JFuture project exists thanks to the TORAT MOSHE educational network with the support of the EURO-ASIAN JEWISH CONGRESS.[:ru]Проект JFuture существует благодоря образовательной сети Торат Моше  при поддержке Евро-Азиатского еврейского Конгресса[:]'); ?></h6>
-            <div class="galery">
-                <div class="wr-photo">
-                    <div class="photo">
-                        <img src="<?php echo get_template_directory_uri();?>/images/logoFooter.png" alt="">
+           <div class="container">
+                <h6 class="text-center"><?php echo __('[:en]The JFuture project exists thanks to:[:ru]Проект JFuture существует благодоря:[:]'); ?></h6>
+                <div class="galery">
+                    <div class="wr-photo">
+                        <div class="photo">
+                            <img src="<?php echo get_template_directory_uri();?>/images/logoFooter.png" alt="">
+                        </div>
+                    </div>
+                    <div class="wr-photo">
+                        <div class="photo">
+                            <img src="<?php echo get_template_directory_uri();?>/images/logoFooter3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="wr-photo">
+                        <div class="photo">
+                            <img src="<?php echo get_template_directory_uri();?>/images/logoFooter2.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="wr-photo">
-                    <div class="photo">
-                        <img src="<?php echo get_template_directory_uri();?>/images/logoFooter3.png" alt="">
-                    </div>
-                </div>
-                <div class="wr-photo">
-                    <div class="photo">
-                        <img src="<?php echo get_template_directory_uri();?>/images/logoFooter2.png" alt="">
-                    </div>
-                </div>
-            </div>
+           </div>
             <div class="wr-map">
                 <h5 class="text-uppercase text-center"><?php echo __('[:en]JOIN US[:ru]ПРИСОЕДИНИЛИСЬ К НАМ[:]'); ?> </h5>
                 <div class="box-map">
+                <div class="city-list__wrp jScrollPane">
+                        <ul class="city-list">
+                            <li class="city-list__item">
+                                <p class="title">Бобруйск</p>
+                                <p>ul. Sacyjalistyčnaja 36, Belarus</p>
+                                <p><a href="tel:375445 437899">375445 437899,</a></p>
+                                <p><a href="https://www.facebook.com/JFutureBobruisk" tagret="_blank">https://www.facebook.com/JFutureBobruisk</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Минск</p>
+                                <p>vul. Kropotkina, 22, Minsk, Belarus,</p>
+                                <p><a href="tel:+375293912385">+375293912385,</a></p>
+                                <p><a href="https://www.facebook.com/JFutureMinsk" tagret="_blank">https://www.facebook.com/JFutureMinsk</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Тбилиси</p>
+                                <p>v25 Kote Afkhazi St, Tbilisi, Georgia,</p>
+                                <p><a href="tel:+995599738770">+995599738770,</a></p>
+                                <p><a href="https://www.facebook.com/JFutureTbilisi" tagret="_blank">https://www.facebook.com/JFutureTbilisi</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Мумбаи</p>
+                                <p>Nariman House, Azad Nagar, Colaba,</p>
+                                <p>Mumbai, Maharashtra 400005, India</p>
+                                <p><a href="tel:+918879733929">+918879733929,</a></p>
+                                <p><a href="https://www.facebook.com/JFutureMumbai" tagret="_blank">https://www.facebook.com/JFutureMumbai</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Алматы</p>
+                                <p>Klochkov St 28, Almaty 050008, Kazakhstan</p>
+                                <p><a href="tel:+87073612111">+87073612111,</a></p>
+                                <p><a href="https://www.facebook.com/JFutureAlmaty" tagret="_blank">https://www.facebook.com/JFutureAlmaty</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Бишкек</p>
+                                <p>4th Microdistrict, 36, Bishkek, Kyrgyzstan</p>
+                                <p><a href="tel:+0559206029">+0559206029,</a></p>
+                                <p><a href="https://www.facebook.com/pg/JFutureBishkek" tagret="_blank">https://www.facebook.com/pg/JFutureBishkek</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Кишинев</p>
+                                <p>Konstantin Varnav street, 6 Chisinau, Moldova</p>
+                                <p><a href="tel:+37378477763">+37378477763,</a></p>
+                                <p><a href="https://www.facebook.com/pg/JFutureKishinev" tagret="_blank">https://www.facebook.com/pg/JFutureKishinev</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Белград</p>
+                                <p>Kneza Miloša 61, Belgrade, Serbia</p>
+                                <p><a href="tel:+381644926364">+381644926364,</a></p>
+                                <p><a href="https://www.facebook.com/pg/JFutureBelgrade" tagret="_blank">https://www.facebook.com/pg/JFutureBelgrade</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Ташкент</p>
+                                <p>Fidokor Street, 7, Tashkent, Uzbekistan</p>
+                                <p><a href="tel:+998977143770">+998977143770,</a></p>
+                                <p><a href="https://www.facebook.com/pg/JFutureTashkent" tagret="_blank">https://www.facebook.com/pg/JFutureTashkent</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Таллин</p>
+                                <p>Karu 16, 10120 Tallinn, Estonia</p>
+                                <p><a href="tel:+37258092383">+37258092383,</a></p>
+                                <p><a href="https://www.facebook.com/JFutureTalin" tagret="_blank">https://www.facebook.com/JFutureTalin</a></p>
+                            </li>
+                            <li class="city-list__item">
+                                <p class="title">Варшава</p>
+                                <p>Przejazd 2 Warsaw Poland 02654</p>
+                                <p><a href="tel:48663663837">48663663837,</a></p>
+                                <p><a href="https://www.facebook.com/pg/JFutureWarsaw" tagret="_blank">https://www.facebook.com/pg/JFutureWarsaw</a></p>
+                            </li>
+                        </ul>
+                   </div>
+                   <div class="city-list-mobile__wrp open">
+                       <div class="city-close open">
+                           <span class="first"></span>
+                           <span class="second"></span>
+                           <span class="third"></span>
+                       </div>
+                       <div class="city-list-mobile jScrollPane">
+                        <ul class="city-list">
+                                <li class="city-list__item">
+                                    <p class="title">Бобруйск</p>
+                                    <p>ul. Sacyjalistyčnaja 36, Belarus</p>
+                                    <p><a href="tel:375445 437899">375445 437899,</a></p>
+                                    <p><a href="https://www.facebook.com/JFutureBobruisk" tagret="_blank">https://www.facebook.com/JFutureBobruisk</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Минск</p>
+                                    <p>vul. Kropotkina, 22, Minsk, Belarus,</p>
+                                    <p><a href="tel:+375293912385">+375293912385,</a></p>
+                                    <p><a href="https://www.facebook.com/JFutureMinsk" tagret="_blank">https://www.facebook.com/JFutureMinsk</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Тбилиси</p>
+                                    <p>v25 Kote Afkhazi St, Tbilisi, Georgia,</p>
+                                    <p><a href="tel:+995599738770">+995599738770,</a></p>
+                                    <p><a href="https://www.facebook.com/JFutureTbilisi" tagret="_blank">https://www.facebook.com/JFutureTbilisi</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Мумбаи</p>
+                                    <p>Nariman House, Azad Nagar, Colaba,</p>
+                                    <p>Mumbai, Maharashtra 400005, India</p>
+                                    <p><a href="tel:+918879733929">+918879733929,</a></p>
+                                    <p><a href="https://www.facebook.com/JFutureMumbai" tagret="_blank">https://www.facebook.com/JFutureMumbai</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Алматы</p>
+                                    <p>Klochkov St 28, Almaty 050008, Kazakhstan</p>
+                                    <p><a href="tel:+87073612111">+87073612111,</a></p>
+                                    <p><a href="https://www.facebook.com/JFutureAlmaty" tagret="_blank">https://www.facebook.com/JFutureAlmaty</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Бишкек</p>
+                                    <p>4th Microdistrict, 36, Bishkek, Kyrgyzstan</p>
+                                    <p><a href="tel:+0559206029">+0559206029,</a></p>
+                                    <p><a href="https://www.facebook.com/pg/JFutureBishkek" tagret="_blank">https://www.facebook.com/pg/JFutureBishkek</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Кишинев</p>
+                                    <p>Konstantin Varnav street, 6 Chisinau, Moldova</p>
+                                    <p><a href="tel:+37378477763">+37378477763,</a></p>
+                                    <p><a href="https://www.facebook.com/pg/JFutureKishinev" tagret="_blank">https://www.facebook.com/pg/JFutureKishinev</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Белград</p>
+                                    <p>Kneza Miloša 61, Belgrade, Serbia</p>
+                                    <p><a href="tel:+381644926364">+381644926364,</a></p>
+                                    <p><a href="https://www.facebook.com/pg/JFutureBelgrade" tagret="_blank">https://www.facebook.com/pg/JFutureBelgrade</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Ташкент</p>
+                                    <p>Fidokor Street, 7, Tashkent, Uzbekistan</p>
+                                    <p><a href="tel:+998977143770">+998977143770,</a></p>
+                                    <p><a href="https://www.facebook.com/pg/JFutureTashkent" tagret="_blank">https://www.facebook.com/pg/JFutureTashkent</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Таллин</p>
+                                    <p>Karu 16, 10120 Tallinn, Estonia</p>
+                                    <p><a href="tel:+37258092383">+37258092383,</a></p>
+                                    <p><a href="https://www.facebook.com/JFutureTalin" tagret="_blank">https://www.facebook.com/JFutureTalin</a></p>
+                                </li>
+                                <li class="city-list__item">
+                                    <p class="title">Варшава</p>
+                                    <p>Przejazd 2 Warsaw Poland 02654</p>
+                                    <p><a href="tel:48663663837">48663663837,</a></p>
+                                    <p><a href="https://www.facebook.com/pg/JFutureWarsaw" tagret="_blank">https://www.facebook.com/pg/JFutureWarsaw</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                   </div>
                     <div class="map" id="map"></div> 
                     <div id="content1"></div>
                 </div>
             </div>
-            <div class="row box-inf footer-bg">
-                <div class="col-lg-4 col-xs-12 col-md-4">
-                    <ul>
-                        <li><span><?php echo __('[:en]We will contct you[:ru]Мы свяжемся с Вами[:]'); ?></span></li>
-                        <li><a href="#unique" class="scroll-navigation"><?php echo __('[:en]Why us[:ru]Почему мы[:]'); ?></a></li>
-                        <li><a href="#principles" class="scroll-navigation"><?php echo __('[:en]Our principles[:ru]Наши принципы[:]'); ?></a></li>
-                        <li><a href="#education" class="scroll-navigation"><?php echo __('[:en]Training[:ru]Обучение[:]'); ?></a></li>
-                        <li><a href="#contact" class="scroll-navigation"><?php echo __('[:en]Submit application[:ru]Подать заявку[:]'); ?></a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-xs-12 col-md-4">
-                    <ul>
-                        <li><span><?php echo __('[:en]Contacts[:ru]Контакты[:]'); ?></span></li>
-                        <li><?php echo __('[:en]Ukraine, Kharkov[:ru]Украина, Харьков[:]'); ?> </li>
-                        <li><?php echo __('[:en]St. Chernyshevsky, 7[:ru]Ул. Чернышевского, 7[:]'); ?> </li>
-                        <li><?php echo __('[:en]Теl: +38 050 302 57 24 [:ru]Тел: +38 050 302 57 24 [:]'); ?> </li>
-                        <li>Email: Jfutureglobal@gmail.com</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-xs-12 col-md-4 ">
-                    <span class="span-h"><?php echo __('[:en]We will contact you[:ru]Мы свяжемся с Вами[:]'); ?></span>
-                    <form class="pbz_form clear-styles">
-                        <input type="email" name="email" class="form-control" placeholder="e-mail" data-title="E-mail">
-                        <button class="btn" type="submit"><?php echo __('[:en]Send[:ru]Отправить[:]'); ?></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="row icon-bar">
-            <div class="col-lg-4 col-sm-4 col-xs-6 col-md-4 col-xs-4">
-                <a href="#" class="wr-soc" target="_blank">
-                    <img src="<?php echo get_template_directory_uri();?>/images/v.png">
-                    <div class="cont">
-                        <strong><?php echo __('[:en]Vkontakte[:ru]Вконтакте[:]'); ?></strong>
-                        <span>2,033k</span>
+            <div class="container">
+                <div class="row box-inf footer-bg">
+                    <div class="col-lg-4 col-xs-6 col-md-4">
+                        <ul>
+                            <li><span><?php echo __('[:en]We will contact you[:ru]Мы свяжемся с Вами[:]'); ?></span></li>
+                            <li><a href="#unique" class="scroll-navigation"><?php echo __('[:en]Why us[:ru]Почему мы[:]'); ?></a></li>
+                            <li><a href="#principles" class="scroll-navigation"><?php echo __('[:en]Our principles[:ru]Наши принципы[:]'); ?></a></li>
+                            <li><a href="#education" class="scroll-navigation"><?php echo __('[:en]Training[:ru]Обучение[:]'); ?></a></li>
+                            <li><a href="#contact" class="scroll-navigation"><?php echo __('[:en]Submit application[:ru]Подать заявку[:]'); ?></a></li>
+                        </ul>
                     </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-4 col-xs-4 col-md-4 col-xs-4">
-                <a href="https://www.facebook.com/JFuture.community" class="wr-soc" target="_blank">
-                    <img src="<?php echo get_template_directory_uri();?>/images/f.png">
-                    <div class="cont">
-                        <strong>Facebook</strong>
-                        <span>2,033k</span>
+                    <div class="col-lg-4 col-xs-6 col-md-4">
+                        <ul>
+                            <li><span><?php echo __('[:en]Contacts[:ru]Контакты[:]'); ?></span></li>
+                            <li><?php echo __('[:en]Ukraine, Kharkov[:ru]Украина, Харьков[:]'); ?> </li>
+                            <li><?php echo __('[:en]St. Chernyshevsky, 7[:ru]Ул. Чернышевского, 7[:]'); ?> </li>
+                            <li><?php echo __('[:en]Теl: +38 050 302 57 24 [:ru]Тел: +38 050 302 57 24 [:]'); ?> </li>
+                            <li>Email: Jfutureglobal@gmail.com</li>
+                        </ul>
                     </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-4 col-xs-4 col-md-4 col-xs-4">
-                <a href="https://www.instagram.com/jfuture.community/" class="wr-soc" target="_blank">
-                    <img src="<?php echo get_template_directory_uri();?>/images/i.png">
-                    <div class="cont">
-                        <strong>Instagram</strong>
-                        <span>2,033k</span>
+                    <div class="col-lg-4 col-xs-12 col-md-4 col-md-offset-0 col-sm-6 xol-sm-offset-3">
+                        <span class="span-h"><?php echo __('[:en]We will contact you[:ru]Мы свяжемся с Вами[:]'); ?></span>
+                        <form class="pbz_form clear-styles">
+                            <input type="email" name="email" class="form-control" placeholder="e-mail" data-title="E-mail">
+                            <button class="btn" type="submit"><?php echo __('[:en]Send[:ru]Отправить[:]'); ?></button>
+                        </form>
                     </div>
-                </a>
+                </div>
             </div>
-        </div>
+                <div class="row icon-bar">
+                    <div class="col-lg-4 col-sm-4 col-xs-6 col-md-4 col-xs-4">
+                        <a href="#" class="wr-soc" target="_blank">
+                            <img src="<?php echo get_template_directory_uri();?>/images/v.png">
+                            <div class="cont">
+                                <strong><?php echo __('[:en]Vkontakte[:ru]Вконтакте[:]'); ?></strong>
+                                <span>2,033k</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 col-xs-4 col-md-4 col-xs-4">
+                        <a href="https://www.facebook.com/JFuture.global" class="wr-soc" target="_blank">
+                            <img src="<?php echo get_template_directory_uri();?>/images/f.png">
+                            <div class="cont">
+                                <strong>Facebook</strong>
+                                <span>2,033k</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 col-xs-4 col-md-4 col-xs-4">
+                        <a href="https://www.instagram.com/jfuture.global/" class="wr-soc" target="_blank">
+                            <img src="<?php echo get_template_directory_uri();?>/images/i.png">
+                            <div class="cont">
+                                <strong>Instagram</strong>
+                                <span>2,033k</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
         <i data-offset="70" class="parallax bg-09"></i>
     </footer>
-<!-- </div><iframe width="560" height="315" src="https://www.youtube.com/embed/TVE02B0TRdE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+</div>
     <div class="mfp-hide">
         <div id="video" class="video-popup">
             <div class="container">
@@ -104,7 +256,7 @@
                     <div class="col-sm-8 col-sm-offset-2 col-xs-12">
                         <div class="video__container">
                             <iframe width="100%" height="440" src="https://www.youtube.com/embed/TVE02B0TRdE?autoplay=1&mute=1"
-                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen mute=1></iframe>
                         <button title="Close (Esc)" type="button" class="mfp-close">×</button>
                         </div>
                     </div>
@@ -118,7 +270,7 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
                         <div class="contact-form__container">
-                            <h5><?php echo __('[:en]CONTACT WITH US[:ru]СВЯЗЬ С НАМИ[:]'); ?></h5>
+                            <h5><?php echo __('[:en]CONTACT US[:ru]СВЯЗЬ С НАМИ[:]'); ?></h5>
                             <form action="" class="contact-form pbz_form clear-styles">
                                 <div class="contact-form__row">
                                     <input type="text"  name="name" placeholder="<?php echo __('[:en]Name[:ru]Имя[:]'); ?>" data-title="Имя" class="custom-intup">
@@ -187,13 +339,58 @@
             </div>
         </div>
     </div>
+    <div class="mfp-hide">
+        <div id="STEAM">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                        <div class="text__container">
+                            <p class="popup-title"><?php echo __('[:en]WHAT IS STEAM-EDUCATION?[:ru]ЧТО ТАКОЕ STEAM-ОБРАЗОВАНИЕ?[:]'); ?></p>
+                            <p><?php echo __('[:en]If you decipher this abbreviation, you get the following: S - science, T - technology, E - engineering, A - art and M - mathematics. Translated from English, it will sound like this: natural sciences, technology, engineering, creativity, mathematics. Note that these disciplines are becoming the most popular in the modern world. That is why today the STEAM system is developing as one of the main trends. STEAM-education is based on an interdisciplinary and applied approach, as well as the integration of all five disciplines into a single training scheme.[:ru]Если расшифровать данную аббревиатуру, то получится следующее: S - science, T - technology, E - engineering, A - art и M - mathematics. В переводе с английского это будет звучать так: естественные науки, технология, инженерное искусство, творчество, математика. Заметим, что данные дисциплины становятся самыми востребованными в современном мире. Именно поэтому сегодня система STEAM развивается, как один из основных трендов. STEAM-образование основано на применении междисциплинарного и прикладного подхода, а также на интеграции всех пяти дисциплин в единую схему обучения.[:]'); ?></p>
+                        <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mfp-hide">
+        <div id="Lego">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                        <div class="text__container">
+                            <p class="popup-title">LEGO Education</p>
+                            <p><?php echo __('[:en]LEGO Education is a division of the manufacturer of educational toys LEGO Group (Denmark), which develops kits for professional pedagogical use based on the details of the LEGO designer, as well as special educational techniques and software.[:ru]LEGO Education (Образовательные решения ЛЕГО) — подразделение производителя развивающих игрушек LEGO Group (Дания), разрабатывающее наборы для профессионального педагогического применения на базе деталей конструктора LEGO, а также специальные образовательные методики и программное обеспечение.[:]'); ?> </p>
+                        <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mfp-hide">
+        <div id="board">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                        <div class="text__container">
+                            <p class="popup-title"><?php echo __('[:en] Smartboard[:ru]Интерактивная доска[:]'); ?></p>
+                            <p><?php echo __('[:en]Large interactive screen in the form of a white magnetic marker board. A  Smartboard can be presented as a stand-alone computer with a large touch screen, or a device that can be connected to a laptop, combining a projector and a touch panel. Interactive whiteboards are used in school classrooms, meeting rooms, halls for group classes, rooms for distance learning and other rooms.[:ru]Большой интерактивный экран в виде белой магнитно-маркерной доски. Интерактивная доска может быть представлена как автономным компьютером с большим сенсорным экраном, так и подключаемым к ноутбуку устройством, объединяющим проектор и сенсорную панель. Интерактивные доски используются в школьных кабинетах, переговорных, залах для групповых занятий,  комнатах для дистанционного обучения и других помещениях[:]'); ?></p>
+                        <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="<?php echo __('[:en]https://maps.googleapis.com/maps/api/js?key=AIzaSyCgqs_0_glakYRIvqjMSYoJIdeBHpV4tE0&language=en[:ru]https://maps.googleapis.com/maps/api/js?key=AIzaSyCgqs_0_glakYRIvqjMSYoJIdeBHpV4tE0[:]'); ?>"></script>
         <script type="text/javascript">
             google.maps.event.addDomListener(window, 'load', init);
             function init() {
                 var mapOptions = {
                     zoom: 3,
-                    scrollwheel: true,
+                    scrollwheel: false,
                     center: new google.maps.LatLng(38.985753, 36.014664),
                     styles: [
                     {

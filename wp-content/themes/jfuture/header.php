@@ -59,8 +59,7 @@
                 </button>
                 <div class="collapse navbar-collapse hidden-xs" id="bs-example-navbar-collapse-9">
                     <ul class="nav navbar-nav" id="main-menu">
-                        <li class="item current-menu-item"><a class="text-uppercase text-center scroll-navigation" href="#top">jfuture</a></li>
-                        <li class="item"><a class="text-uppercase text-center scroll-navigation" href="#unique"><?php echo __('[:en]Why us[:ru]почему мы[:]'); ?></a></li>
+                        <li class="item current-menu-item"><a class="text-uppercase text-center scroll-navigation" href="#unique"><?php echo __('[:en]Why us[:ru]почему мы[:]'); ?></a></li>
                         <li class="item"><a class="text-uppercase text-center scroll-navigation" href="#principles"><?php echo __('[:en]Principles[:ru]принципы[:]'); ?></a></li>
                         <li class="item"><a class="text-uppercase text-center scroll-navigation" href="#education"><?php echo __('[:en]Training[:ru]обучение[:]'); ?></a></li>
                         <li class="item"><a class="text-uppercase text-center scroll-navigation" href="#contact"><?php echo __('[:en]Contact us[:ru]связь с нами[:]'); ?></a></li>
@@ -69,7 +68,7 @@
             </nav>
             <div class="wr-phone portfolio-experiment">
                 <a class="text-uppercase popup-btn"  data-mfp-src="#contact-form" href="#">
-                    <span class="text"><?php echo __('[:en]To connect[:ru]связаться[:]'); ?></span>
+                    <span class="text"><?php echo __('[:en]Connect[:ru]связаться[:]'); ?></span>
                     <span class="line -right"></span>
                     <span class="line -top"></span>
                     <span class="line -left"></span>
@@ -78,11 +77,18 @@
             </div>
 	        <?php echo __('[:en]<a href="/ru" class="lang">En</a>[:ru]<a href="/en" class="lang">Ru</a>[:]'); ?>
             <ul class="nav navbar-nav mobile-menu visible-xs-block">
-                <li class="item current-menu-item"><a class="text-uppercase text-center scroll-navigation" href="#top">jfuture</a></li>
-                <li class="item"><a class="text-uppercase text-center scroll-navigation" href="#unique"><?php echo __('[:en]Why us[:ru]почему мы[:]'); ?></a></a></li>
+                <li class="item"><a class="text-uppercase text-center scroll-navigation" href="#top">jfuture</a></li>
+                <li class="item current-menu-item"><a class="text-uppercase text-center scroll-navigation" href="#unique"><?php echo __('[:en]Why us[:ru]почему мы[:]'); ?></a></a></li>
                 <li class="item"><a class="text-uppercase text-center scroll-navigation" href="#principles"><?php echo __('[:en]Principles[:ru]принципы[:]'); ?></a></li>
                 <li class="item"><a class="text-uppercase text-center scroll-navigation" href="#education"><?php echo __('[:en]Training[:ru]обучение[:]'); ?></a></li>
                 <li class="item"><a class="text-uppercase text-center scroll-navigation" href="#contact"><?php echo __('[:en]Contact us[:ru]связь с нами[:]'); ?></a></li>
             </ul>
+            <div class="desktop-burger visibility-none">
+                <span class="first"></span>
+                <span class="second"></span>
+                <span class="third"></span>
+            </div>
+            <a href="phone:" class="mobile-phone"></a>
+            <a href="mailto:" class="mobile-mail"></a>
         </header>
     </div>

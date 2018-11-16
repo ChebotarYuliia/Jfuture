@@ -18,5 +18,9 @@ module.exports = function() {
   }
 
   $(document).click(initjScrollPane);
+  // $(document).ready( function() {
+  //   setTimeout(initjScrollPane(), 100);
+  //   console.log(123);
+  // });
   initjScrollPane();
 };
